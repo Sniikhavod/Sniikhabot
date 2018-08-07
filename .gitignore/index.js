@@ -76,7 +76,7 @@ client.on('message',message =>{
         
         if(!args[0]) return message.channel.send("Tu doit dire combien de message tu veux surprimer!");
          message.channel.bulkDelete(args[0]).then(() => {
-            message.channel.send(`${args[0]} messages ont été supprimés !`);
+            message.channel.send(`${args[0]} messages ont été supprimés ! !`);
         })
     }
 
